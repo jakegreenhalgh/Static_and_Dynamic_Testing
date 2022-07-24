@@ -17,24 +17,24 @@ Only comment on errors that would stop the tests running.
 class CardGame:
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1: #needs two '='
       return True
     else #has not added ':' after else
       return False
    
 
   dif highest_card(self, card1 card2): #'dif' not 'def', no comma after card card1
-  if card1.value > card2.value:
-    return card
+  if card1.value > card2.value: #indentaion not correct
+    return card #should be card1
   else:
     return card2
   
 
 
 def cards_total(self, cards):
-  total
+  total #needs to state the value of the variable 'total'
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total #need to convert the total to a str before concatenation
   
 ```
