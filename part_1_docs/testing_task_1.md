@@ -31,10 +31,10 @@ class CardGame:
   
 
 
-def cards_total(self, cards):
+def cards_total(self, cards): #incorrect indentation
   total #needs to state the value of the variable 'total'
   for card in cards:
     total += card.value
-    return "You have a total of" + total #need to convert the total to a str before concatenation
+    return "You have a total of" + total #need to convert the total to a str before concatenation, missing space at end, return indented within loop
   
 ```
